@@ -104,7 +104,7 @@ async function checkForNewLiquidityPools() {
       // Process new liquidity pools here (e.g., add them to CSV)
       // For demonstration, let's just log them
     }
-  }, 5 * 60 * 1000) // Polling interval: 5 minutes (adjust as needed)
+  }, 1000) // Polling interval: seconds (adjust as needed)
 }
 
 // Function to detect new liquidity pools
